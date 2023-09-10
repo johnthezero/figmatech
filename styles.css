@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body  ,header, .first-container , .second-container, .misc {
+    max-width: 1200px;
+   
+}
+body {
+    max-width: 100%;
+    /* background-image: url('../images/matrix.jpg');  */
+    background-size: cover; /*what the fuck ?!*/
+ 
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.logo a {
+    text-decoration: none;
+}
+html {
+    background-color:#3A3D46 ;
+}
+.pseudologo {
+    font-weight: 800;
+    text-align: center;
+    font-size: 2rem;
+    font-family: fantasy;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    padding: 10px;
+    background-color: slategray;
+    color: beige;
+    /* color: rgb(29, 7, 7); */
+    border-radius: 20px;
+    height: 60px;
+    width: 190px;
+    
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(48, 58, 48);    
+    
+    border-radius: 15px;
+    padding: 0px 15px;
+}
+nav {
+    
+    display: flex;
+    gap: 20px;
+}
+nav a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: beige;
+}
+.first-container {
+    width: 100%;
+    background-color:#3A3D46 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.first-container p {
+    color: beige;
+    font-style: italic;
+}
+.downarrow {
+    font-weight: bold;
+    font-size: 2rem;
+}
+.second-container {
+    width: 100%;
+    background-color:#3A3D46 ;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: space-between;
+
+    align-items: center;
+}
+h1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: beige;
+    font-family: cursive;  
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-shadow: 6px 6px rgb(48, 58, 48)    ;
+
+}
+img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+.line {
+    width: 150px;
+    width: 100%;
+    height: 1px;
+    color: blue;
+}
+.projects {
+    
+    background-color: rgb(55, 73, 73);
+    width: 410px;
+    height: 410px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    border-radius: 50%;
+}
+.presentations {
+    background-color: rgb(55, 73, 73);
+    /* background-color: rgb(48, 58, 48); */
+    width: 410px;
+    height: 410px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    border-radius: 50%;
+}
+.projects a,.presentations a {
+    color: beige;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+h2 {
+    color: beige;
+}
+.p1 {
+    width: 300px;
+    height: 100px;
+    font-size: 1.2rem;      
+}
+
+.p2 {
+    width: 400px;
+    height: 100px;
+    font-size: 1.2rem;  
+}
+.home {
+    color: beige;
+    font-size: 1.3rem;
+}
